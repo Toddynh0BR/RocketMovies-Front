@@ -14,9 +14,16 @@ border: none;
 cursor: pointer;
 transition: .3s ease-in;
 
+svg {
+    transition: .3s ease-in;
+}
+
 &:hover {
  background-color: #FF6883;
  color: white;
+ svg {
+ color: white;
+ }
 }
 
 &:disabled {
