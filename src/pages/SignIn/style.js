@@ -18,6 +18,13 @@ export const Main = styled.div`
   justify-content: center;
  
 
+  :nth-child(5){
+    margin-bottom: 0;
+  }
+  :nth-child(6){
+    margin-bottom: 4rem;
+  }
+
 h1 {
 color: #FF859b;
 font-size: 4.8rem;

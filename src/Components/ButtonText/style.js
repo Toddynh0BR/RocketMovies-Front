@@ -8,7 +8,7 @@ export const Container = styled.div`
  cursor: pointer;
 } 
 
- margin-top: 5rem;
+
 
  color: #FF859B;
 

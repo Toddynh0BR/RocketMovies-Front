@@ -9,6 +9,12 @@ background-color: #ff859b0c;
 height: 14.4rem;
 width: 100%;
 
+:first-child{
+:first-child {
+ margin-top: 0;
+}
+  margin-top: 5rem;
+}
 
 display: flex;
 justify-content: space-between;

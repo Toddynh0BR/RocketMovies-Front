@@ -17,6 +17,12 @@ export const Main = styled.div`
   flex-direction: column;
   justify-content: center;
  
+  :nth-child(6){
+    margin-bottom: 0;
+  }
+  :nth-child(7){
+    margin-bottom: 4rem;
+  }
 
 h1 {
 color: #FF859b;

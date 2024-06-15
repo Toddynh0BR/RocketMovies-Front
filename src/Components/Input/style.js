@@ -6,7 +6,6 @@ height: 5.6rem;
 
 display: flex;
 align-items: center;
-gap: 1rem;
 
 background-color: #262529;
 border-radius: 1rem;
@@ -20,13 +19,16 @@ border: none;
 outline: none;
 
 color: #F4EDE8;
+font-family: ${(props) => props.fontfamily || "'Roboto Slab', serif"};
 font-size: 1.6rem;
 font-weight: normal;
+margin-left: 1rem;
 }
 
 input::placeholder {
 font-weight: 500;
 color: #948F99; 
+
 }
 
 svg {
