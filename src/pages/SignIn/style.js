@@ -47,7 +47,9 @@ font-weight: normal;
 margin-bottom: 5rem;
 }
 
-
+a {
+ text-decoration: none;
+}
 `
 
 export const Form = styled.form`

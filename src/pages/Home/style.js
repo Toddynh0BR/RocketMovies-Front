@@ -78,6 +78,7 @@ padding: 3.2rem;
 background-color: #ff859b0c;
 border-radius: 1.6rem;
 transition: .3s ease-in;
+cursor: pointer;
 
 &:hover {
 filter: brightness(80%);

@@ -1,5 +1,7 @@
 import { Container, Main, FistInputs, SecondInput, Marcs, Buttons, Box, Marcadores, Marc, NewMarc  } from "./style";
 
+import { Link } from "react-router-dom";
+
 import { FiArrowLeft, FiX, FiPlus   } from 'react-icons/fi';
 
 import { ButtonText } from "../../Components/ButtonText";
@@ -14,10 +16,12 @@ return(
     <Header></Header>
 
     <Box>
+    <Link to="/">
     <ButtonText 
          icon={FiArrowLeft}
          title="Voltar"
     />
+    </Link>
     </Box>
 
     <Main>

@@ -1,5 +1,7 @@
-import { FiMail, FiLock } from 'react-icons/fi';
 import { Container, Main, Background} from './style';
+import { Link } from 'react-router-dom'
+
+import { FiMail, FiLock } from 'react-icons/fi';
 
 import { ButtonText } from '../../Components/ButtonText';
 import { Button } from '../../Components/Button';
@@ -29,13 +31,15 @@ return(
           icon={FiLock}
         />
 
-    <Button title="Entrar"></Button>
+   <Button title="Entrar"></Button>
 
+  <Link to="/register">
     <ButtonText 
      icon={FiMail}
-    title="Criar Conta"
-   
+     title="Criar Conta"
     />
+  </Link>
+
     </Main>
 
     <Background/>

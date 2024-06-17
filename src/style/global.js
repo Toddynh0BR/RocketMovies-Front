@@ -15,4 +15,8 @@ export default createGlobalStyle`
 body {
  background-color: #1C1B1E;
 }
+
+a {
+ text-decoration: none;
+}
 `

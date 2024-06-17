@@ -1,5 +1,7 @@
 import { Container, Main, Functions, Titles, Info, Tags, Texts, Box } from "./style";
 
+import { Link } from "react-router-dom";
+
 import { FiArrowLeft, FiClock } from 'react-icons/fi';
 
 import { ButtonText } from "../../Components/ButtonText"
@@ -13,10 +15,12 @@ return(
     <Header></Header>
 
    <Box>
-    <ButtonText 
+    <Link to="/">
+     <ButtonText 
          icon={FiArrowLeft}
          title="Voltar"
         />
+    </Link>
     </Box>
     
     <Main>
