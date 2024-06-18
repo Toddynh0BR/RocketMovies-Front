@@ -7,7 +7,7 @@ import { MoviePreview } from '../pages/MoviePreview'
 
 export function AppRoutes() {
   return (
-    <Routes>
+    <Routes basename="/RocketMovies-Front">
       <Route path="/" element={<Home />} />
       <Route path="/user" element={<User />} />
       <Route path="/create" element={<CreateMovie />} />
