@@ -1,9 +1,9 @@
 {
+  "homepage": "https://toddynh0br.github.io/RocketMovies-Front/",
   "name": "rocketmovies",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://toddynh0br.github.io/RocketMovies-Front/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
