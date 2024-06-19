@@ -40,7 +40,7 @@ return(
 
     <Button title="Cadastrar"></Button>
 
-  <Link to="/">  
+  <Link to="/RocketMovies-Front/">  
     <ButtonText 
     icon={FiArrowLeft}
     title="Voltar para o login"

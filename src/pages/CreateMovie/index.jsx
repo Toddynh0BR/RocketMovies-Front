@@ -16,7 +16,7 @@ return(
     <Header></Header>
 
     <Box>
-    <Link to="/">
+    <Link to="/RocketMovies-Front/">
     <ButtonText 
          icon={FiArrowLeft}
          title="Voltar"

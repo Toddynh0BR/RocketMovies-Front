@@ -12,7 +12,7 @@ export function User(){
  return(
  <Container>
    <Header>
-    <Link to="/">
+    <Link to="/RocketMovies-Front/">
     <ButtonText
      icon={FiArrowLeft}
      title="Voltar"

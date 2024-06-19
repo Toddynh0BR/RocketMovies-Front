@@ -7,7 +7,7 @@ import { SignUp } from '../pages/SignUp'
 export function AuthRoutes() {
   return (
     <Router basename="/RocketMovies-Front">
-      <Route path="/" element={<SignIn />} />
+      <Route path="/RocketMovies-Front/" element={<SignIn />} />
       <Route path="/register" element={<SignUp />} />
     </Router>
   )
